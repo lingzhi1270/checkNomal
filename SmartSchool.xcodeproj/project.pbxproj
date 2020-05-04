@@ -24,7 +24,7 @@
 		3530080523C498CE00F2145F /* ChooseSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseSchoolViewController.m; sourceTree = "<group>"; };
 		3530080623C498CE00F2145F /* ChooseSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseSchoolViewController.h; sourceTree = "<group>"; };
 		353DDA2E23CC5C43004ABA9B /* 未来学苑.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "未来学苑.entitlements"; sourceTree = "<group>"; };
-		35415BB323BF07950089A973 /* 未来学苑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "未来学苑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35415BB323BF07950089A973 /* 小小校园.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小小校园.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C87AB223BF49E6000FAB1E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		35C87AB323BF49E6000FAB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C87ABA23BF49E6000FAB1E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -92,7 +92,7 @@
 		35415BB423BF07950089A973 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				35415BB323BF07950089A973 /* 未来学苑.app */,
+				35415BB323BF07950089A973 /* 小小校园.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			);
 			name = SmartSchool;
 			productName = ModuleDemo;
-			productReference = 35415BB323BF07950089A973 /* 未来学苑.app */;
+			productReference = 35415BB323BF07950089A973 /* 小小校园.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -395,7 +395,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SmartSchool/未来学苑.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2002171;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7F69UBB9A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -414,9 +414,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.viroyal.academy;
-				PRODUCT_NAME = "未来学苑";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingzhi.nanjing;
+				PRODUCT_NAME = "小小校园";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -431,7 +431,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SmartSchool/未来学苑.entitlements";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2002171;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N7F69UBB9A;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -450,9 +450,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.viroyal.academy;
-				PRODUCT_NAME = "未来学苑";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingzhi.nanjing;
+				PRODUCT_NAME = "小小校园";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
