@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19A583" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="AdEntity" representedClassName="AdEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="cycle" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="mediaUrl" optional="YES" attributeType="String"/>
+        <attribute name="mediaVideo" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="targetType" optional="YES" attributeType="String"/>
+        <attribute name="targetUrl" optional="YES" attributeType="String"/>
+        <attribute name="timeLast" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="timeOff" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="timeOn" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="AppEntity" representedClassName="AppEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="admin" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="categoryId" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="categoryName" optional="YES" attributeType="String"/>
+        <attribute name="homeIndex" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="homeUrl" optional="YES" attributeType="String"/>
+        <attribute name="iconUrl" optional="YES" attributeType="String"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="name_chs" optional="YES" attributeType="String"/>
+        <attribute name="name_en" optional="YES" attributeType="String"/>
+        <attribute name="qrKey" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BannerEntity" representedClassName="BannerEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="mediaUrl" optional="YES" attributeType="String"/>
+        <attribute name="targetType" optional="YES" attributeType="String"/>
+        <attribute name="targetUrl" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CityEntity" representedClassName="CityEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="city" optional="YES" attributeType="String"/>
+        <attribute name="district" optional="YES" attributeType="String"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="province" optional="YES" attributeType="String"/>
+        <attribute name="selectedIndex" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+        <attribute name="weather" optional="YES" attributeType="Binary"/>
+        <attribute name="weather_date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="ContactLocalEntity" representedClassName="ContactLocalEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="givenName" optional="YES" attributeType="String"/>
+        <attribute name="givenPinyin" optional="YES" attributeType="String"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="orgName" optional="YES" attributeType="String"/>
+        <attribute name="orgNamePinyin" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="pinyin" optional="YES" attributeType="String"/>
+        <attribute name="sectionKey" optional="YES" attributeType="String"/>
+        <attribute name="shengmu" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ContactOnlineEntity" representedClassName="ContactOnlineEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="avatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="givenName" optional="YES" attributeType="String"/>
+        <attribute name="givenPinyin" optional="YES" attributeType="String"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="orgName" optional="YES" attributeType="String"/>
+        <attribute name="orgNamePinyin" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="pinyin" optional="YES" attributeType="String"/>
+        <attribute name="placeholder" optional="YES" attributeType="String"/>
+        <attribute name="refCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="section" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="sectionKey" optional="YES" attributeType="String"/>
+        <attribute name="shengmu" optional="YES" attributeType="String"/>
+        <attribute name="shortNo" optional="YES" attributeType="String"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FavEntity" representedClassName="FavEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="FriendRequestEntity" representedClassName="FriendRequestEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="accepted" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="avatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="message" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="readStatus" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="requestid" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NewsEntity" representedClassName="NewsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="cachedImage" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="originalImageUrl" optional="YES" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="shareUrl" optional="YES" attributeType="String"/>
+        <attribute name="targetUrl" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="PayOrderEntity" representedClassName="PayOrderEntity" syncable="YES" codeGenerationType="class"/>
+    <entity name="ThemeEntity" representedClassName="ThemeEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="bundleUrl" optional="YES" attributeType="String"/>
+        <attribute name="coverUrl" optional="YES" attributeType="String"/>
+        <attribute name="detail" optional="YES" attributeType="String"/>
+        <attribute name="fileName" optional="YES" attributeType="String"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="screenUrl" optional="YES" attributeType="String"/>
+        <attribute name="sysDefault" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="timeOff" optional="YES" attributeType="String"/>
+        <attribute name="timeOn" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserEntity" representedClassName="UserEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="avatarUrl" optional="YES" attributeType="String"/>
+        <attribute name="followed_count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="follower_count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="im_id" optional="YES" attributeType="String"/>
+        <attribute name="loginid" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nickname" optional="YES" attributeType="String"/>
+        <attribute name="refreshKey" optional="YES" attributeType="String"/>
+        <attribute name="relation" optional="YES" attributeType="String"/>
+        <attribute name="school" optional="YES" attributeType="String"/>
+        <attribute name="topic_count" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userid" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="AdEntity" positionX="-18" positionY="135" width="128" height="223"/>
+        <element name="AppEntity" positionX="-54" positionY="-9" width="128" height="238"/>
+        <element name="BannerEntity" positionX="-18" positionY="135" width="128" height="28"/>
+        <element name="CityEntity" positionX="0" positionY="153" width="128" height="28"/>
+        <element name="ContactLocalEntity" positionX="0" positionY="171" width="128" height="208"/>
+        <element name="ContactOnlineEntity" positionX="-45" positionY="135" width="128" height="358"/>
+        <element name="FavEntity" positionX="-18" positionY="135" width="128" height="148"/>
+        <element name="FriendRequestEntity" positionX="-18" positionY="162" width="128" height="193"/>
+        <element name="NewsEntity" positionX="-9" positionY="153" width="128" height="28"/>
+        <element name="PayOrderEntity" positionX="-63" positionY="-18" width="128" height="43"/>
+        <element name="ThemeEntity" positionX="18" positionY="180" width="128" height="28"/>
+        <element name="UserEntity" positionX="-54" positionY="81" width="128" height="223"/>
+    </elements>
+</model>

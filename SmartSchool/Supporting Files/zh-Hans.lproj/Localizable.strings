@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  Module_demo
+
+  Created by 唐琦 on 2019/8/16.
+  Copyright © 2019 唐琦. All rights reserved.
+*/
+
+"Home" = "首页";
+
+"Contacts" = "通讯录";
+
+"Community" = "社区";
+
+"Messages" = "消息";
+
+"Me" = "我的";
+
+"Close" = "关闭";
+
+"Exit" = "退出";
+
+"Please wait" = "请等待";
+
+"Success" = "成功";
+
+"Failed" = "失败";
+
+"OK" = "确定";
+
+"Cancel" = "取消";
+
+"Continue" = "继续";
+
+"Done" = "完成";
+
+"Save" = "保存";
+
+"Edit" = "编辑";
+
+"Delete" = "删除";
+
+"Replace" = "替换";
+
+"Reject" = "拒绝";
+
+"Accept" = "同意";
+
+"Get Sms" = "获取验证码";
+
+"Resend" = "重新发送";
+
+"Login" = "登录";
+
+"Login expired" = "登录已失效";
+
+"Theme" = "主题";
+
+"Skip" = "跳过";
+
+"once" = "单次";
+
+"daily" = "每天";
+
+"workday" = "工作日";
+
+"Today" = "今天";
+
+"student" = "学生";
+
+"teacher" = "教职工";

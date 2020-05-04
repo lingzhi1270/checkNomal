@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TestBaseUrl</key>
+	<string>https://testapi.happyn2.com/</string>
+	<key>ProductBaseUrl</key>
+	<string>https://mcpapi.iyuyun.net:18443/</string>
+	<key>InterfaceApi</key>
+	<dict>
+		<key>ALL_SCHOOL_INFO</key>
+		<string>/general/v1/all/school</string>
+		<key>GET_SMS_CODE</key>
+		<string>/account/getsms</string>
+		<key>LOGIN</key>
+		<string>/account/login</string>
+		<key>CALENDAR</key>
+		<string>/app/common/dev/calendar</string>
+		<key>Common_Check_TopItems</key>
+		<string>/app/inspect/top_items</string>
+		<key>Common_Check_getClass</key>
+		<string>/app/common/dev/section/grades</string>
+		<key>Common_Check_getStudentInfo</key>
+		<string>/app/inspect/student</string>
+		<key>Common_Check_getAreaInfo</key>
+		<string>/app/inspect/area</string>
+		<key>Common_Check_getChildClass</key>
+		<string>/app/inspect/items</string>
+		<key>Common_Check_qureyResult</key>
+		<string>/app/inspect/grade/records</string>
+		<key>Common_Check_qureyTodayResult</key>
+		<string>/app/inspect/class/details</string>
+		<key>Common_Check_report</key>
+		<string>/app/inspect/items/report</string>
+		<key>Common_Check_calendar</key>
+		<string>/app/common/dev/calendar</string>
+	</dict>
+</dict>
+</plist>

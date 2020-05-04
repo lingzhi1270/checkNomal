@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		350F8F6223C5C091008620B2 /* servers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 350F8F6123C5C091008620B2 /* servers.plist */; };
+		3530080723C498CE00F2145F /* ChooseSchoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3530080523C498CE00F2145F /* ChooseSchoolViewController.m */; };
+		35C87DA723BF49E7000FAB1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C87AB323BF49E6000FAB1E /* Assets.xcassets */; };
+		35C87DAB23BF49E7000FAB1E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35C87AB923BF49E6000FAB1E /* Localizable.strings */; };
+		35C87DAC23BF49E7000FAB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35C87ABC23BF49E6000FAB1E /* LaunchScreen.storyboard */; };
+		35C87DAD23BF49E7000FAB1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C87ABE23BF49E6000FAB1E /* main.m */; };
+		35C87DAE23BF49E7000FAB1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C87AC023BF49E6000FAB1E /* AppDelegate.m */; };
+		94CDD24DA6DA5F9EFF97B488 /* libPods-SmartSchool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3089174EC82A1D97524AC57B /* libPods-SmartSchool.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		039D806E17B889F77514C320 /* Pods-SmartSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSchool.debug.xcconfig"; path = "Target Support Files/Pods-SmartSchool/Pods-SmartSchool.debug.xcconfig"; sourceTree = "<group>"; };
+		3089174EC82A1D97524AC57B /* libPods-SmartSchool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartSchool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		350F8F6123C5C091008620B2 /* servers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = servers.plist; sourceTree = "<group>"; };
+		3530080523C498CE00F2145F /* ChooseSchoolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseSchoolViewController.m; sourceTree = "<group>"; };
+		3530080623C498CE00F2145F /* ChooseSchoolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseSchoolViewController.h; sourceTree = "<group>"; };
+		353DDA2E23CC5C43004ABA9B /* 未来学苑.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "未来学苑.entitlements"; sourceTree = "<group>"; };
+		35415BB323BF07950089A973 /* 未来学苑.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "未来学苑.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35C87AB223BF49E6000FAB1E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35C87AB323BF49E6000FAB1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35C87ABA23BF49E6000FAB1E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		35C87ABB23BF49E6000FAB1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		35C87ABD23BF49E6000FAB1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35C87ABE23BF49E6000FAB1E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35C87ABF23BF49E6000FAB1E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		35C87AC023BF49E6000FAB1E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35C87DA423BF49E7000FAB1E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E09194321517C9107CB4F3 /* Pods-ModuleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleDemo.release.xcconfig"; path = "Target Support Files/Pods-ModuleDemo/Pods-ModuleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7448FE4687ADBB6FECEE0F67 /* Pods-ModuleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModuleDemo.debug.xcconfig"; path = "Target Support Files/Pods-ModuleDemo/Pods-ModuleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE4E22E78E052068F7FF016 /* Pods-SmartSchool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSchool.release.xcconfig"; path = "Target Support Files/Pods-SmartSchool/Pods-SmartSchool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35415BB023BF07950089A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CDD24DA6DA5F9EFF97B488 /* libPods-SmartSchool.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18EB346E6B28BE0E8E227A69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7448FE4687ADBB6FECEE0F67 /* Pods-ModuleDemo.debug.xcconfig */,
+				35E09194321517C9107CB4F3 /* Pods-ModuleDemo.release.xcconfig */,
+				039D806E17B889F77514C320 /* Pods-SmartSchool.debug.xcconfig */,
+				DFE4E22E78E052068F7FF016 /* Pods-SmartSchool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		353007FC23C4988F00F2145F /* ChooseSchool */ = {
+			isa = PBXGroup;
+			children = (
+				353007FD23C4988F00F2145F /* Controllers */,
+			);
+			path = ChooseSchool;
+			sourceTree = "<group>";
+		};
+		353007FD23C4988F00F2145F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3530080623C498CE00F2145F /* ChooseSchoolViewController.h */,
+				3530080523C498CE00F2145F /* ChooseSchoolViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		35415BAA23BF07950089A973 = {
+			isa = PBXGroup;
+			children = (
+				35C87AB123BF49E6000FAB1E /* SmartSchool */,
+				35415BB423BF07950089A973 /* Products */,
+				18EB346E6B28BE0E8E227A69 /* Pods */,
+				E39BAE37063633F3FEF7996D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		35415BB423BF07950089A973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35415BB323BF07950089A973 /* 未来学苑.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35C87AB123BF49E6000FAB1E /* SmartSchool */ = {
+			isa = PBXGroup;
+			children = (
+				353DDA2E23CC5C43004ABA9B /* 未来学苑.entitlements */,
+				35C87AB223BF49E6000FAB1E /* AppDelegate.h */,
+				35C87AC023BF49E6000FAB1E /* AppDelegate.m */,
+				353007FC23C4988F00F2145F /* ChooseSchool */,
+				35C87AB323BF49E6000FAB1E /* Assets.xcassets */,
+				35C87DA423BF49E7000FAB1E /* Info.plist */,
+				350F8F6123C5C091008620B2 /* servers.plist */,
+				35C87AB823BF49E6000FAB1E /* Supporting Files */,
+			);
+			path = SmartSchool;
+			sourceTree = "<group>";
+		};
+		35C87AB823BF49E6000FAB1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35C87AB923BF49E6000FAB1E /* Localizable.strings */,
+				35C87ABC23BF49E6000FAB1E /* LaunchScreen.storyboard */,
+				35C87ABE23BF49E6000FAB1E /* main.m */,
+				35C87ABF23BF49E6000FAB1E /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E39BAE37063633F3FEF7996D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3089174EC82A1D97524AC57B /* libPods-SmartSchool.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35415BB223BF07950089A973 /* SmartSchool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35415BCF23BF07A60089A973 /* Build configuration list for PBXNativeTarget "SmartSchool" */;
+			buildPhases = (
+				5A9C32E8481E9DD8D1380A67 /* [CP] Check Pods Manifest.lock */,
+				35415BAF23BF07950089A973 /* Sources */,
+				35415BB023BF07950089A973 /* Frameworks */,
+				35415BB123BF07950089A973 /* Resources */,
+				960F1AA74D0336F16CD4200C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSchool;
+			productName = ModuleDemo;
+			productReference = 35415BB323BF07950089A973 /* 未来学苑.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35415BAB23BF07950089A973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "唐琦";
+				TargetAttributes = {
+					35415BB223BF07950089A973 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 35415BAE23BF07950089A973 /* Build configuration list for PBXProject "SmartSchool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 35415BAA23BF07950089A973;
+			productRefGroup = 35415BB423BF07950089A973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35415BB223BF07950089A973 /* SmartSchool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35415BB123BF07950089A973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C87DA723BF49E7000FAB1E /* Assets.xcassets in Resources */,
+				350F8F6223C5C091008620B2 /* servers.plist in Resources */,
+				35C87DAC23BF49E7000FAB1E /* LaunchScreen.storyboard in Resources */,
+				35C87DAB23BF49E7000FAB1E /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A9C32E8481E9DD8D1380A67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartSchool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		960F1AA74D0336F16CD4200C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartSchool/Pods-SmartSchool-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartSchool/Pods-SmartSchool-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartSchool/Pods-SmartSchool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35415BAF23BF07950089A973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C87DAE23BF49E7000FAB1E /* AppDelegate.m in Sources */,
+				35C87DAD23BF49E7000FAB1E /* main.m in Sources */,
+				3530080723C498CE00F2145F /* ChooseSchoolViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35C87AB923BF49E6000FAB1E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C87ABA23BF49E6000FAB1E /* zh-Hans */,
+				35C87ABB23BF49E6000FAB1E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		35C87ABC23BF49E6000FAB1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35C87ABD23BF49E6000FAB1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35415BCD23BF07A60089A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35415BCE23BF07A60089A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35415BD023BF07A60089A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039D806E17B889F77514C320 /* Pods-SmartSchool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "SmartSchool/未来学苑.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2002171;
+				DEVELOPMENT_TEAM = N7F69UBB9A;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartSchool/Modules/ModFaceRecognition/ModFaceRecognitionBase/Framework",
+					"$(PROJECT_DIR)/SmartSchool/TXLiteAVSDK_Player/TXLiteAVSDK_Player/SDK",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Supporting Files/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SmartSchool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viroyal.academy;
+				PRODUCT_NAME = "未来学苑";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		35415BD123BF07A60089A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE4E22E78E052068F7FF016 /* Pods-SmartSchool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = "SmartSchool/未来学苑.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2002171;
+				DEVELOPMENT_TEAM = N7F69UBB9A;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartSchool/Modules/ModFaceRecognition/ModFaceRecognitionBase/Framework",
+					"$(PROJECT_DIR)/SmartSchool/TXLiteAVSDK_Player/TXLiteAVSDK_Player/SDK",
+				);
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Supporting Files/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/SmartSchool/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.viroyal.academy;
+				PRODUCT_NAME = "未来学苑";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35415BAE23BF07950089A973 /* Build configuration list for PBXProject "SmartSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35415BCD23BF07A60089A973 /* Debug */,
+				35415BCE23BF07A60089A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35415BCF23BF07A60089A973 /* Build configuration list for PBXNativeTarget "SmartSchool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35415BD023BF07A60089A973 /* Debug */,
+				35415BD123BF07A60089A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35415BAB23BF07950089A973 /* Project object */;
+}
